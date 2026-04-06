@@ -12,6 +12,6 @@ export const projectDemos: Record<string, ProjectDemoConfig> = {
   },
   "KRK_TechLab": {
     liveLink: "http://krk-tech-lab.vercel.app/",
-    demoVideo: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+    demoVideo: "https://www.youtubeexample.com/embed/dQw4w9WgXcQ?autoplay=1"
   }
 };
