@@ -72,23 +72,55 @@ export function Hero() {
               <div className="text-9xl">👨‍💻</div>
             </div>
             
-            {/* Floating Badges */}
+            {/* Floating Badges — KRK TechLab Branding */}
             <motion.div 
               animate={{ y: [0, 10, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut", delay: 1 }}
-              className="absolute top-10 -left-6 glass px-4 py-2 rounded-xl text-sm font-medium z-20 flex items-center gap-2"
+              className="absolute top-10 -left-8 glass px-4 py-2 rounded-xl text-sm font-bold z-20 flex items-center gap-2 border border-primary/40 shadow-[0_0_18px_rgba(139,92,246,0.45)]"
             >
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              Next.js
+              <motion.span
+                animate={{ opacity: [1, 0.4, 1] }}
+                transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
+                className="w-2 h-2 rounded-full bg-primary"
+              />
+              <motion.span
+                animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
+                transition={{ repeat: Infinity, duration: 3, ease: "linear" }}
+                style={{
+                  background: "linear-gradient(90deg, #a78bfa, #38bdf8, #a78bfa)",
+                  backgroundSize: "200% auto",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                KRK TechLab
+              </motion.span>
             </motion.div>
             
             <motion.div 
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 5, ease: "easeInOut", delay: 0.5 }}
-              className="absolute bottom-12 -right-4 glass px-4 py-2 rounded-xl text-sm font-medium z-20 flex items-center gap-2"
+              className="absolute bottom-12 -right-6 glass px-4 py-2 rounded-xl text-sm font-bold z-20 flex items-center gap-2 border border-accent/40 shadow-[0_0_18px_rgba(56,189,248,0.35)]"
             >
-              <span className="text-secondary text-xl">⚡</span>
-              Tailwind
+              <motion.span
+                animate={{ rotate: [0, 180, 360], scale: [1, 1.3, 1] }}
+                transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
+                className="text-accent text-base"
+              >
+                ✦
+              </motion.span>
+              <motion.span
+                animate={{ backgroundPosition: ["100% 50%", "0% 50%", "100% 50%"] }}
+                transition={{ repeat: Infinity, duration: 3, ease: "linear" }}
+                style={{
+                  background: "linear-gradient(90deg, #38bdf8, #a78bfa, #38bdf8)",
+                  backgroundSize: "200% auto",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                KRK TechLab
+              </motion.span>
             </motion.div>
           </motion.div>
         </motion.div>
