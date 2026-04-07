@@ -8,6 +8,6 @@ export const siteConfig = {
   linkedin: "https://www.linkedin.com/in/krishna-kevat-77409b354/",
   whatsapp: {
     number: "918780031691",
-    message: "Hello Krishna, I saw your portfolio and I want to work with you."
+    message: "Hello Brother, I came across your portfolio and was impressed by your work. I would like to discuss a potential project with you."
   }
 };
