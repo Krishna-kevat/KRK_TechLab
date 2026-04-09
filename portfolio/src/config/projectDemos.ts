@@ -16,6 +16,6 @@ export const projectDemos: Record<string, ProjectDemoConfig> = {
   }
   ,
   "E-news": {
-    demoVideo: "https://www.youtube.com/embed/Qx88VVtRhiU"
+    demoVideo: "https://www.https://youtu.be/9MHZaR8mMeI"
   },
 };
