@@ -17,5 +17,5 @@ export const projectDemos: Record<string, ProjectDemoConfig> = {
   ,
   "E-news": {
     demoVideo: "https://youtu.be/Qx88VVtRhiU"
-  }
+  },
 };
