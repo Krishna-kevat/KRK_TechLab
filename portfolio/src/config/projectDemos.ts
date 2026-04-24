@@ -7,7 +7,7 @@ export const projectDemos: Record<string, ProjectDemoConfig> = {
   // Example mappings based on EXACT GitHub repository names:
   // Add your actual repository names below instead of "example-repo-name"
   "wardrobe-map": {
-    liveLink: "https://example.com",
+    liveLink: "wardrobe-map.netlify.app",
     demoVideo: "https://www.youtube.com/embed/e-4a3-MwOoM"
   },
   "KRK_TechLab": {
